@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app3.android.test.changecolor.MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/centerText"
+            android:gravity="center"
+            android:text="반짝반짝"
+            android:textSize="10pt"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_weight="50"
+            />
+
+        <Button
+            android:id="@+id/redBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA7A7"
+            android:text="Red"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/orangeBt"
+            android:text="Orange"
+            android:background="#FFC19E"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellowBt"
+            android:text="Yellow"
+            android:background="#FAED7D"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/greenBt"
+            android:text="Green"
+            android:background="#B7F0B1"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blueBt"
+            android:text="Blue"
+            android:background="#B2CCFF"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navy"
+            android:id="@+id/navyBt"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:background="#B5B2FF"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/violetBt"
+            android:text="Violet"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt"
+            android:background="#D1B2FF"
+            android:layout_weight="1"
+            />
+
+
+
+</LinearLayout>
